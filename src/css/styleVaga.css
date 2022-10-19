@@ -1,0 +1,726 @@
+/**Midia para aparelhos menores que 480px**/
+@media(max-width:480px){
+    :root {
+        --main: #135EF2;
+    
+        --greyBase: #e9e9e9;
+        --darkBlue: hsl(223, 76%, 35%);
+    }
+    
+    body {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+        width: 100%;
+        font-family: 'Roboto Condensed', sans-serif;
+    }
+
+    .containerMainVaga {
+        height: 67em;
+        background: #fff;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        margin-bottom: 1em;
+        margin-top: 3em;
+    }
+    
+    .vaga h2 {
+        color: var(--main);
+        font-size: 1.5em;
+    
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    
+    #FormVaga {
+        font-size: 0.7em;
+        gap: 1em;
+    
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+    
+    #FormVaga i {
+        font-size: 2em;
+    }
+    
+    .campos {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+    }
+    
+    label {
+        width: 3em;
+        color: var(--main);
+        margin-top: 1em;
+    }
+    
+    input {
+        padding: 1em;
+        border: none;
+        border-radius: 10px;
+        border-bottom: 2px solid var(--main);
+        width: 20em;
+        background: #f7f7f7;
+    }
+    
+    textarea {
+        font-size: 1.2em;
+        font-weight: 700;
+        padding: 1em;
+        background: #f7f7f7;
+        width: 25em;
+        border: none;
+        border-radius: 10px;
+        border-bottom: 2px solid var(--main);
+    }
+    
+    #campoTipoVaga {
+        width: 30em;
+        margin: 0;
+        padding: 0;
+        gap: 1em;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+    
+    #campoEstudante {
+        width: 20em;
+        margin: 0;
+        padding: 0;
+        gap: 1em;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    #campoEstudante input[type=radio] {
+        margin: 0;
+        padding: 1em;
+    }
+    
+    .campoYES, .campoNO {
+        width: 20em;
+    }
+    
+    #campoEstudante p {
+        font-size: 1.5em;
+    }
+    
+    .aux {
+        display: flex;
+        flex-direction: row;
+    }
+    
+    #campoTipoVaga p, #campoTipoVaga label {
+        font-size: 1.5em;
+        padding: 0;
+        margin: 0;
+    }
+    
+    #campoTipoVaga p {
+        font-size: 2em;
+
+    }
+    
+    .campoRadio {
+        width: 11em;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+    
+    .ajusteOpPresencial {
+        width: 4em;
+    }
+    
+    #campoTipoVaga input[type=radio] {
+        width: 100%;
+        height: 1.5em;
+    }
+    
+    #descricaoQuali {
+        font-size: 1.2em;
+        font-weight: 700;
+        padding: 1em;
+        background: #f7f7f7;
+        width: 25em;
+        border: none;
+        border-radius: 10px;
+        border-bottom: 2px solid var(--main);
+        margin-top: 1em;
+    }
+
+    #iconAux {
+        opacity: 0;
+    }
+    
+    .btn-box > button {
+        font-size: 1em;
+        padding: 1.3em;
+        border-radius: 1.5em;
+        border: none;
+        cursor: pointer;
+        background: var(--greyBase);
+        margin-top: 1.5em;
+    }
+    
+    button:hover {
+        background: var(--main);
+        color: #fff;
+        font-weight: 700;
+    }    
+}
+
+/**Midia para aparelhos entre 481px até 768px**/
+@media(min-width: 481px) and (max-width:768px){
+    :root {
+        --main: #135EF2;
+    
+        --greyBase: #e9e9e9;
+        --darkBlue: hsl(223, 76%, 35%);
+    }
+    
+    body {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+        width: 100%;
+        font-family: 'Roboto Condensed', sans-serif;
+    }
+
+    .containerMainVaga {
+        height: 67em;
+        background: #fff;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        margin-bottom: 1em;
+        margin-top: 3em;
+    }
+    
+    .vaga h2 {
+        color: var(--main);
+        font-size: 1.5em;
+    
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    
+    #FormVaga {
+        font-size: 0.7em;
+        gap: 1em;
+    
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+    
+    #FormVaga i {
+        font-size: 2em;
+    }
+    
+    .campos {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+    }
+    
+    label {
+        width: 3em;
+        color: var(--main);
+        margin-top: 1em;
+    }
+    
+    input {
+        padding: 1em;
+        border: none;
+        border-radius: 10px;
+        border-bottom: 2px solid var(--main);
+        width: 20em;
+        background: #f7f7f7;
+    }
+    
+    textarea {
+        font-size: 1.2em;
+        font-weight: 700;
+        padding: 1em;
+        background: #f7f7f7;
+        width: 25em;
+        border: none;
+        border-radius: 10px;
+        border-bottom: 2px solid var(--main);
+    }
+    
+    #campoTipoVaga {
+        width: 30em;
+        margin: 0;
+        padding: 0;
+        gap: 1em;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+    
+    #campoEstudante {
+        width: 20em;
+        margin: 0;
+        padding: 0;
+        gap: 1em;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    #campoEstudante input[type=radio] {
+        margin: 0;
+        padding: 1em;
+    }
+    
+    .campoYES, .campoNO {
+        width: 20em;
+    }
+    
+    #campoEstudante p {
+        font-size: 1.5em;
+    }
+    
+    .aux {
+        display: flex;
+        flex-direction: row;
+    }
+    
+    #campoTipoVaga p, #campoTipoVaga label {
+        font-size: 1.5em;
+        padding: 0;
+        margin: 0;
+    }
+    
+    #campoTipoVaga p {
+        font-size: 2em;
+
+    }
+    
+    .campoRadio {
+        width: 11em;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+    
+    .ajusteOpPresencial {
+        width: 4em;
+    }
+    
+    #campoTipoVaga input[type=radio] {
+        width: 100%;
+        height: 1.5em;
+    }
+    
+    #descricaoQuali {
+        font-size: 1.2em;
+        font-weight: 700;
+        padding: 1em;
+        background: #f7f7f7;
+        width: 25em;
+        border: none;
+        border-radius: 10px;
+        border-bottom: 2px solid var(--main);
+        margin-top: 1em;
+    }
+
+    #iconAux {
+        opacity: 0;
+    }
+    
+    .btn-box > button {
+        font-size: 1em;
+        padding: 1.3em;
+        border-radius: 1.5em;
+        border: none;
+        cursor: pointer;
+        background: var(--greyBase);
+        margin-top: 1.5em;
+    }
+    
+    button:hover {
+        background: var(--main);
+        color: #fff;
+        font-weight: 700;
+    }
+}
+
+/**Midia para aparelhos entre 769px até 1279px**/
+@media(min-width: 769px) and (max-width: 1279px) {
+    :root {
+        --main: #135EF2;
+    
+        --greyBase: #e9e9e9;
+        --darkBlue: hsl(223, 76%, 35%);
+    }
+    
+    body {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+        width: 100%;
+        font-family: 'Roboto Condensed', sans-serif;
+    }
+
+    .containerMainVaga {
+        height: 95em;
+        background: #fff;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        margin-bottom: 1em;
+    }
+    
+    .vaga h2 {
+        color: var(--main);
+        font-size: 2em;
+    
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    
+    #FormVaga {
+        gap: 1em;
+    
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+    
+    #FormVaga i {
+        font-size: 2em;
+    }
+    
+    .campos {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+    }
+    
+    label {
+        width: 3em;
+        color: var(--main);
+        margin-top: 1em;
+    }
+    
+    input {
+        font-size: 1.2em;
+        padding: 1em;
+        border: none;
+        border-radius: 10px;
+        border-bottom: 2px solid var(--main);
+        width: 20em;
+        background: #f7f7f7;
+    }
+    
+    textarea {
+        font-size: 1.2em;
+        font-weight: 700;
+        padding: 1em;
+        background: #f7f7f7;
+        width: 25em;
+        border: none;
+        border-radius: 10px;
+        border-bottom: 2px solid var(--main);
+    }
+    
+    #campoTipoVaga {
+        width: 45em;
+        margin: 0;
+        padding: 0;
+        gap: 1em;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+    
+    #campoEstudante {
+        width: 20em;
+        gap: 1em;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    #campoEstudante input[type=radio] {
+        margin: 0;
+        padding: 1em;
+    }
+    
+    .campoYES, .campoNO {
+        width: 20em;
+    }
+    
+    #campoEstudante p {
+        font-size: 1.5em;
+    }
+    
+    .aux {
+        display: flex;
+        flex-direction: row;
+    }
+    
+    #campoTipoVaga p, #campoTipoVaga label {
+        font-size: 1.5em;
+        padding: 0;
+        margin: 0;
+    }
+    
+    #campoTipoVaga p {
+        font-size: 2em;
+
+    }
+    
+    .campoRadio {
+        width: 11em;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+    
+    .ajusteOpPresencial {
+        width: 4em;
+    }
+    
+    #campoTipoVaga input[type=radio] {
+        width: 100%;
+        height: 1.5em;
+    }
+    
+    #descricaoQuali {
+        font-size: 1.2em;
+        font-weight: 700;
+        padding: 1em;
+        background: #f7f7f7;
+        width: 25em;
+        border: none;
+        border-radius: 10px;
+        border-bottom: 2px solid var(--main);
+        margin-top: 1em;
+    }
+
+    #iconAux {
+        opacity: 0;
+    }
+    
+    .btn-box > button {
+        font-size: 1em;
+        padding: 1.3em;
+        border-radius: 1.5em;
+        border: none;
+        cursor: pointer;
+        background: var(--greyBase);
+        margin-top: 1.5em;
+    }
+    
+    button:hover {
+        background: var(--main);
+        color: #fff;
+        font-weight: 700;
+    }    
+}
+
+/**Midia para aparelhos maiores que 1280px**/
+@media(min-width:1280px){
+    :root {
+        --main: #135EF2;
+    
+        --greyBase: #e9e9e9;
+        --darkBlue: hsl(223, 76%, 35%);
+    }
+    
+    body {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+        width: 100%;
+        font-family: 'Roboto Condensed', sans-serif;
+    }
+
+    .containerMainVaga {
+        height: 95em;
+        background: #fff;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        margin-bottom: 1em;
+    }
+    
+    .vaga h2 {
+        color: var(--main);
+        font-size: 2em;
+    
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    
+    #FormVaga {
+        width: 50em;
+        gap: 1em;
+    
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+    
+    #FormVaga i {
+        font-size: 2em;
+    }
+    
+    .campos {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+    }
+    
+    label {
+        width: 3em;
+        color: var(--main);
+        margin-top: 1em;
+    }
+    
+    input {
+        font-size: 1.2em;
+        padding: 1em;
+        border: none;
+        border-radius: 10px;
+        border-bottom: 2px solid var(--main);
+        width: 20em;
+        background: #f7f7f7;
+    }
+    
+    textarea {
+        font-size: 1.2em;
+        font-weight: 700;
+        padding: 1em;
+        background: #f7f7f7;
+        width: 25em;
+        border: none;
+        border-radius: 10px;
+        border-bottom: 2px solid var(--main);
+    }
+    
+    #campoTipoVaga {
+        width: 45em;
+        margin: 0;
+        padding: 0;
+        gap: 1em;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+    
+    #campoEstudante {
+        width: 20em;
+        gap: 1em;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    #campoEstudante input[type=radio] {
+        margin: 0;
+        padding: 1em;
+    }
+    
+    .campoYES, .campoNO {
+        width: 20em;
+    }
+    
+    #campoEstudante p {
+        font-size: 1.5em;
+    }
+    
+    .aux {
+        display: flex;
+        flex-direction: row;
+    }
+    
+    #campoTipoVaga p, #campoTipoVaga label {
+        font-size: 1.5em;
+        padding: 0;
+        margin: 0;
+    }
+    
+    #campoTipoVaga p {
+        font-size: 2em;
+
+    }
+    
+    .campoRadio {
+        width: 11em;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+    
+    .ajusteOpPresencial {
+        width: 4em;
+    }
+    
+    #campoTipoVaga input[type=radio] {
+        width: 100%;
+        height: 1.5em;
+    }
+    
+    #descricaoQuali {
+        font-size: 1.2em;
+        font-weight: 700;
+        padding: 1em;
+        background: #f7f7f7;
+        width: 25em;
+        border: none;
+        border-radius: 10px;
+        border-bottom: 2px solid var(--main);
+        margin-top: 1em;
+    }
+
+    #iconAux {
+        opacity: 0;
+    }
+    
+    .btn-box > button {
+        font-size: 1em;
+        padding: 1.3em;
+        border-radius: 1.5em;
+        border: none;
+        cursor: pointer;
+        background: var(--greyBase);
+        margin-top: 1.5em;
+    }
+    
+    button:hover {
+        background: var(--main);
+        color: #fff;
+        font-weight: 700;
+    }
+}

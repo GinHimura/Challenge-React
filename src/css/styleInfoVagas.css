@@ -1,0 +1,28 @@
+/**Midia para aparelhos menores que 480px**/
+@media(max-width:480px){
+    .info_vagas > h1 {
+        font-size: 1em;
+    }
+}
+
+/**Midia para aparelhos entre 481px até 768px**/
+@media(min-width: 481px) and (max-width:768px){
+    .info_vagas > h1 {
+        font-size: 1em;
+    }
+}
+
+/**Midia para aparelhos entre 769px até 1279px**/
+@media(min-width: 769px) and (max-width: 1279px) {
+    .info_vagas > h1 {
+        font-size: 1em;
+    }
+}
+
+/**Midia para aparelhos maiores que 1280px**/
+@media(min-width:1280px){
+
+    .info_vagas > h1 {
+        font-size: 1em;
+    }
+}
